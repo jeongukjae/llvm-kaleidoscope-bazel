@@ -1,4 +1,4 @@
-workspace(name = "mlir-toy-language-tutorial")
+workspace(name = "kaleidoscope-bazel")
 
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
