@@ -10,6 +10,14 @@ cc_binary(
     ],
     deps = [
         "@llvm-project//llvm:Core",
+        "@llvm-project//llvm:ExecutionEngine",
+        "@llvm-project//llvm:Interpreter",
+        "@llvm-project//llvm:Support",
+        "@llvm-project//llvm:MC",
+        "@llvm-project//llvm:X86CodeGen",
+        "@llvm-project//llvm:X86AsmParser",
+        "@llvm-project//llvm:ARMCodeGen",
+        "@llvm-project//llvm:ARMAsmParser",
         "@llvm-project//llvm:OrcJIT",
     ],
 )
