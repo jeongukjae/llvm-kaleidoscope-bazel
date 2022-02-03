@@ -36,7 +36,10 @@ _LLVM_TARGETS = [
     "X86",
 ]
 
-llvm_configure(name = "llvm-project", targets = _LLVM_TARGETS)
+llvm_configure(
+    name = "llvm-project",
+    targets = _LLVM_TARGETS,
+)
 
 # Disables optional dependencies for Support like zlib and terminfo. You may
 # instead want to configure them using the macros in the corresponding bzl
